@@ -1,0 +1,23 @@
+# [package]
+# name = "encrypted-ixs"
+# version = "0.1.0"
+# edition = "2021"
+
+# [dependencies]
+# arcium-dsl = { version = "0.4.0", features = ["arcium"] }
+# arcis-imports = "0.4.0"
+
+# [lib]
+# crate-type = ["cdylib", "lib"]
+
+[package]
+name = "encrypted-ixs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arcium-macros = "0.4.0"
+arcis-imports = "0.4.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
