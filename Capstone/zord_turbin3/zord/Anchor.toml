@@ -6,13 +6,16 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-zord = "CxoXZWX49mcTn5bXqEuUMjFubGt1m1fHMGVYyB2uwY3L"
+zord = "EgdCU8dmSb3mchFbgchYt28PCk4dnmKrYgQGMJsjMckf"
+
+[programs.devnet]
+zord = "EgdCU8dmSb3mchFbgchYt28PCk4dnmKrYgQGMJsjMckf"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

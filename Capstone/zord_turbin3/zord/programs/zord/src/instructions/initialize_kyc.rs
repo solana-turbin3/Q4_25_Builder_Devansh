@@ -28,3 +28,7 @@ pub fn handle(ctx: Context<InitializeKyc>) -> Result<()> {
 
     Ok(())
 }
+
+pub fn initialize_kyc(ctx: Context<InitializeKyc>) -> Result<()> {
+    handle(ctx)
+}

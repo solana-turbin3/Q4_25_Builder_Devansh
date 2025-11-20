@@ -44,3 +44,10 @@ pub fn handle(
 
     Ok(())
 }
+
+pub fn submit_attestation(
+    ctx: Context<SubmitAttestation>,
+    attestation_json: String,
+) -> Result<()> {
+    handle(ctx, attestation_json)
+}
